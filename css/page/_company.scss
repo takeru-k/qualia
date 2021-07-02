@@ -1,0 +1,61 @@
+.about-inner{
+  padding-top: 40px;
+}
+.about-table{
+  border-collapse: collapse;
+
+  tr{
+    border-top: 1px solid #ccc;
+
+    &:last-child{
+      border-bottom: 1px solid #ccc;
+    }
+  }
+
+  th{
+    width: 200px;
+    padding: 16px 24px;
+    font-weight: bold;
+    background: #EDF9FF;
+    text-align: left;
+    color: $color-main;
+  }
+
+  td{
+    padding: 16px 24px;
+  }
+
+  ol{
+    list-style: decimal;
+    padding-bottom: 16px;
+
+    a{
+      text-decoration: underline;
+    }
+  }
+}
+
+@media #{$mq_sp}{
+  .about-table{
+    th{
+    display: block;
+    text-align-last: left;
+    padding-top: 16px;
+    background: #fff;
+    }
+
+    td{
+      display: block;
+      padding-top: 4px;
+      padding-bottom: 16px;
+    }
+  }
+  
+}
+
+@media #{$mq_pc}{
+  .about-inner{
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

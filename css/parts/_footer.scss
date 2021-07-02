@@ -1,0 +1,30 @@
+.footer{
+  background: $color-main;
+}
+
+.footer-items{
+  padding: 64px 0 40px;
+}
+
+.footer-logo{
+  width: 100px;
+  margin: 0 auto;
+}
+
+.footer-nav{
+  color: #fff;
+  padding-top: 40px;
+
+  li{
+    line-height: 2;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+}
+
+.copy{
+  color: #666;
+  text-align: center;
+  font-size: 0.9rem;
+  padding-bottom: 16px;
+}

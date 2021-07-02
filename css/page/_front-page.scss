@@ -1,0 +1,33 @@
+/*---------------------------------
+
+  mv
+
+---------------------------------*/
+.mv{
+  background: url(../images/mv1.jpg) no-repeat center center/cover;
+  height: 80vh;
+  position: relative;
+
+}
+
+.mv-txts{
+  color: #fff;
+  padding-top: 100%;
+  text-shadow: 2px  2px 5px #1E1F4B,
+            -2px  2px 5px #1E1F4B,
+             2px -2px 5px #1E1F4B,
+            -2px -2px 5px #1E1F4B;
+}
+
+.mv-txt{
+  padding-top: 16px;
+}
+
+/*---------------------------------
+
+  service-section
+
+---------------------------------*/
+.service-section{
+  background: linear-gradient(180deg, #fff 0%, #fff 5%, $color-bg 5%, $color-bg 100%);
+}
