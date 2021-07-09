@@ -46,7 +46,7 @@ $color-bg: #F5F8FB;
 }
 
 .pt0{
-  padding-top: 0;
+  padding-top: 0 !important;
 }
 
 .pb0{
@@ -55,6 +55,12 @@ $color-bg: #F5F8FB;
 
 .page-header{
   padding-top: 20px;
+}
+
+@media #{$mq_pc}{
+  .section{
+    padding: 80px 0;
+  }
 }
 
 /*---------------------------------

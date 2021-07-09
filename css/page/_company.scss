@@ -16,7 +16,7 @@
     width: 200px;
     padding: 16px 24px;
     font-weight: bold;
-    background: #EDF9FF;
+    background: $color-bg;
     text-align: left;
     color: $color-main;
   }
@@ -51,6 +51,14 @@
     }
   }
   
+}
+
+@media #{$mq_tab}{
+  .about-table{
+    th{
+      vertical-align: top;
+    }
+  }
 }
 
 @media #{$mq_pc}{

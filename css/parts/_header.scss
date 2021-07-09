@@ -21,6 +21,39 @@
 .pc-nav{
   display: none;
 }
+
+@media #{$mq_pc}{
+  .header-right{
+    display: none;
+  }
+
+  .header-inner{
+    padding-right: 6%;
+    padding-left: 6%;
+    margin: 0 auto;
+  }
+
+  .pc-nav{
+    display: block;
+
+    ul{
+      display: flex;
+    }
+
+    li{
+      color: #fff;
+      margin-left: 32px;
+
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .current-menu-item{
+    border-bottom: 2px solid #fff;
+  }
+}
 /*---------------------------------
 
   ハンバーガーメニュー

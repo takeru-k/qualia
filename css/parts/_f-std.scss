@@ -1,0 +1,28 @@
+@media #{$mq_tab}{
+  .f-std{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .f-std__left{
+    width: 48%;
+  }
+
+  .f-std__right{
+    width: 48%;
+
+    img{
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+}
+
+@media #{$mq_pc}{
+  .f-std__right{
+    img{
+      height: 400px;
+    }
+  }
+}

@@ -29,3 +29,28 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 }
+
+@media #{$mq_tab}{
+  .flex-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:nth-child(even){
+      flex-direction: row-reverse;
+    }
+  }
+
+  .flex-txtArea{
+    width: 48%;
+  }
+
+  .flex-imgArea{
+    width: 48%;
+
+    img{
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+}

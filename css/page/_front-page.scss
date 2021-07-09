@@ -23,6 +23,35 @@
   padding-top: 16px;
 }
 
+@media #{$mq_tab}{
+  .mv{
+    height: 60vh;
+  }
+
+  .mv-txts{
+    padding-top: 50%;
+  }
+}
+
+@media #{$mq_pc}{
+  .mv{
+    height: 90vh;
+  }
+
+  .mv-txts{
+    padding-top: 25%;
+    text-align: center;
+  }
+
+  .mv-ttl{
+    font-size: 40px;
+  }
+
+  .mv-txt{
+    line-height: 2;
+  }
+}
+
 /*---------------------------------
 
   service-section
@@ -30,4 +59,23 @@
 ---------------------------------*/
 .service-section{
   background: linear-gradient(180deg, #fff 0%, #fff 5%, $color-bg 5%, $color-bg 100%);
+}
+
+@media #{$mq_pc}{
+  .service-section{
+  background: linear-gradient(180deg, #fff 0%, #fff 10%, $color-bg 10%, $color-bg 100%);
+}
+}
+
+/*---------------------------------
+
+  cta
+
+---------------------------------*/
+@media #{$mq_pc}{
+  .cta{
+    br{
+      display: none;
+    }
+  }
 }

@@ -67,3 +67,10 @@
     max-width: 800px;
   }
 }
+
+@media #{$mq_tab}{
+  .contact{
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
